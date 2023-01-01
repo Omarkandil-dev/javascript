@@ -14,6 +14,8 @@ document.querySelector('#push').onclick = function(){
                 </button>
             </div>
         `
+        document.querySelector('#newtask input').value =""
+
         ;
 
         var current_tasks = document.querySelectorAll(".delete");
