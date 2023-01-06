@@ -1,5 +1,5 @@
 let demo = document.getElementById("demo");
-let deadline = new Date("Nov, 2022, 12:37:25").getTime(); 
+let deadline = new Date("2023-05-27").getTime(); 
 let x = setInterval(function() { 
 let now = new Date().getTime(); 
 let time = deadline - now; 
